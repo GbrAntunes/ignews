@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "webhook": "stripe listen --forward-to localhost:3000/api/webhooks"
+    "webhook": "./stripe listen --forward-to localhost:3000/api/webhooks"
   },
   "dependencies": {
     "@prismicio/client": "^4.0.0",
